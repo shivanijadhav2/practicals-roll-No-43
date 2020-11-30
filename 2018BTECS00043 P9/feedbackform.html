@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>feedback form</title>
+  <link rel="stylesheet" href="my_style.css">
+	<style >
+		
 
+.form-row{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical
+}
+.form-group{
+  border-radius: 5px;
+  background-color: rgb(200,0,100);
+  padding: 20px;
+  width: 50%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical
+}
+$("input.tocheck-true").prop("checked",true);
+
+</style>
+	
+</head>
+<body>
+
+<h1>Kesari Tours And Travels</h1>
+
+<h3>customer feedback form</h3>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>Maharashra</option>
+        <option>UP</option>
+        <option>AP</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+
+      <form action="/action_page.php">
+      	<h3>ADD ID PROOF</h3>
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+
+<h3>ADD ID IMAGES</h3>
+   <label for="img">Select image:</label>
+  <input type="file" id="img" name="img" accept="image/*">
+
+  <input type="submit">
+    <input type="reset" value="Reset">
+</form>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <h3>Have you enjoyed the tour?</h3>
+       <label><input type=checkbox class="tocheck-true" name=YES > YES</label>
+       <label><input type=checkbox class="tocheck-true" name=NO > NO</label>
+       <h3>Will you recommend this to your friends?</h3>
+       <label><input type=checkbox class="tocheck-true" name=YES > YES</label>
+       <label><input type=checkbox class="tocheck-true" name=NO > NO</label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="example">Example textarea</label>
+    <textarea class="form-control" id="example" rows="3"></textarea>
+    <input type="reset" value="Reset">
+  </div>
+  
+  SUBMIT
+</button>
+   
+  
+    <script> 
+        function myalert() { 
+            alert("Thank you for your feedback\n " + 
+                "Share this experience with your friends\n" +  
+                         "Do visit again!!!!"); 
+        } 
+    </script> 
+  <input type="reset" value="Reset">
+  
+</form>
+
+</body>
+</html>
