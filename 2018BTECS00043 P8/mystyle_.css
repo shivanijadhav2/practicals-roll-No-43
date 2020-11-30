@@ -1,0 +1,14 @@
+h1
+            {
+                font-family: Verdana, Geneva, Tahoma, sans-serif; 
+                text-align: center; 
+                font-size:60px; 
+                color:rgb(8, 2, 68)
+            }
+            body 
+			 {
+				  background-image: url("https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b0801554-f406-4a48-8879-1f7fa59b83d9/nature-wallpaper22.jpg") ;
+				  background-color: #d9e6e6; 
+				  background-repeat: no-repeat; 
+				 background-size:100% 100vh;
+			  }
